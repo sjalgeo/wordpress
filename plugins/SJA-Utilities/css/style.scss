@@ -1,0 +1,43 @@
+@import "compass/css3";
+
+body {
+  background: #222222;
+}
+
+.grid {
+  width: 90%;
+  max-width: 1400px;
+  margin: 20px auto;
+  line-height: 0;
+  @include column-gap(20);
+  @include column-count(5);
+    
+  img {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100% !important;
+    height: auto !important;
+   }
+}
+
+@media (max-width: 1200px) {
+    .grid {
+      @include column-count(4);
+    }
+  }
+  @media (max-width: 1000px) {
+    .grid {
+      @include column-count(3);
+    }
+  }
+  @media (max-width: 800px) {
+    .grid {
+      @include column-count(2);
+    }
+  }
+
+  @media (max-width: 400px) {
+    .grid {
+      @include column-count(1);
+    }
+  }

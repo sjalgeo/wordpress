@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="me-com">
+    <serverData>
+      <paths name="me-com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/kavosbooked.com/wp-content/plugins/SJA-Utilities" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
+
